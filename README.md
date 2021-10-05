@@ -1,4 +1,3 @@
-# otp-app
 ## First screen is of entering phone number
 
 1.it is validated

@@ -1,0 +1,123 @@
+.input {
+  position: absolute;
+  width: 343px;
+  height: 44px;
+  left: calc(50% - 343px / 2);
+  top: calc(50% - 44px / 2 + 68px);
+
+  border: 1px solid #ffd37d;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0.75rem;
+  border-radius: 13px;
+  outline: none;
+  background: #ffff;
+  margin-top: 0.5rem;
+  color: #000;
+  font-family: inherit;
+}
+.input_text {
+  position: absolute;
+  width: 343px;
+  height: 28px;
+  left: calc(50% - 343px / 2);
+  top: calc(50% - 28px / 2 + 135px);
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+
+  color: #999999;
+}
+.button {
+  position: absolute;
+  width: 224px;
+  height: 36px;
+  left: calc(50% - 224px / 2 - 0.5px);
+  top: calc(50% - 36px / 2 + 270px);
+  border: 1px solid #ffd37d;
+  color: white;
+
+  background: #f7b348;
+  border-radius: 100px;
+}
+.contact_number {
+  position: absolute;
+  /* width: 134px;
+  height: 14px; */
+  left: calc(50% - 134px / 2 - 90.5px);
+  top: calc(50% - 30px / 2 + 46px);
+  color: rgb(133, 133, 133);
+  font-size: 14px;
+}
+input:focus {
+  border: 2px solid #79898d;
+}
+.text {
+  position: absolute;
+  width: 174px;
+  height: 28px;
+  left: calc(50% - 174px / 2 + 0.5px);
+  top: calc(50% - 28px / 2 - 75px);
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.text_new {
+  position: absolute;
+  width: 237px;
+  height: 19px;
+  left: calc(50% - 237px / 2 + 1px);
+  top: calc(50% - 19px / 2 - 31.5px);
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #666666;
+}
+.otp_text {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #333333;
+}
+.text_otp {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #666666;
+}
+.change {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #f7b348;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
